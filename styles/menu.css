@@ -6,9 +6,13 @@ html{
     flex-direction: row;
     flex-wrap:wrap;
 }
-
+.container-header img{
+    background-color: orange;
+    border-radius: 10px;
+}
 .container-header h1{
     flex-grow: 1;
+    color:rgb(255, 166, 0);
 
 }
 
@@ -27,6 +31,13 @@ header{
     position:sticky;
     top:0px;
     z-index: 99;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 5px;
+    padding:5px;
 }
 
 .container{
@@ -88,6 +99,9 @@ footer{
     color:red;
 }
 
+footer{
+    text-align:center;
+}
 @media only screen and (max-width: 600px) {
     .container-header{
         flex-direction: column;
