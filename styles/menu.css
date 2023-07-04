@@ -12,6 +12,11 @@ html{
 
 }
 
+.container-links{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
 header{
     text-align: center;
     background-color: red;
@@ -22,14 +27,6 @@ header{
     position:sticky;
     top:0px;
     z-index: 99;
-}
-header img{
-    display:block;
-    float:left;
-}
-header h1{
-    display: block;
-    text-align: center;
 }
 
 .container{
@@ -92,13 +89,8 @@ footer{
 }
 
 @media only screen and (max-width: 600px) {
-    header{
-        max-height:100px;
-        
-    }
-    header img{
-        width: 40px;
-        height:40px;
+    .container-header{
+        flex-direction: column;
     }
     header h1{
         font-size:20px;
