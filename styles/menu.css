@@ -51,7 +51,7 @@ section h3{
     outline-style: dotted; */
     border:1px solid white;
     margin:2px;
-    background-image: url("img/burger.jpg");
+    background-image: url("img/burger.svg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right bottom;
