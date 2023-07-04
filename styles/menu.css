@@ -12,8 +12,8 @@ html{
 }
 .container-header h1{
     flex-grow: 1;
-    color:rgb(255, 166, 0);
-
+    color:white;
+    font-size:40px;
 }
 
 .container-links{
@@ -36,8 +36,31 @@ header{
 nav a{
     text-decoration: none;
     background-color: orange;
+    color:red;
     border-radius: 5px;
     padding:5px;
+}
+
+.products-nav{
+    background-color: orange;
+    padding:1px;
+    margin:2px;
+}
+
+.container-products{
+    display:flex;
+    justify-content: space-around;
+}
+.container-products li {
+    list-style-type: none;
+}
+
+.container-products li a{
+    text-decoration-line: none;
+    color:red;
+    font-size:20px;
+    padding:20px;
+    font-weight: bold;
 }
 
 .container{
@@ -101,8 +124,8 @@ footer{
     .container-header{
         flex-direction: column;
     }
-    header h1{
-        font-size:20px;
+    .container-header h1{
+        font-size:25px;
     }
 
     .burgers h4{
