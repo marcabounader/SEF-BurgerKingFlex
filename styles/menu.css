@@ -47,6 +47,8 @@ header h1{
     background-repeat: no-repeat;
     background-position: right bottom;
     height:300px;
+    flex-grow: 1;
+
 }
 
 section h3{
