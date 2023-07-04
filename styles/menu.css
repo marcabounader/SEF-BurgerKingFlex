@@ -39,6 +39,7 @@ header h1{
 
 .burgers{
     flex-basis:50%;
+    
 }
 
 section h3{
@@ -56,6 +57,7 @@ section h3{
 .burgers div{
     /* outline: 4px;
     outline-style: dotted; */
+    border-radius: 3px;
     border:1px solid white;
     margin:2px;
     background-image: url("../img/burger.svg"); 
