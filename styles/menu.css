@@ -59,7 +59,7 @@ section h3{
     border:1px solid white;
     margin:2px;
     background-image: url("../img/burger.svg"); 
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: right bottom;
 } 
