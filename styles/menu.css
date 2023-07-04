@@ -1,0 +1,93 @@
+html{
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    background-color: red;
+    padding:10px;
+    border-radius:4px;
+    max-width: 100%;
+    color:white;
+    position:sticky;
+    top:0px;
+    z-index: 99;
+}
+header img{
+    display:block;
+    float:left;
+}
+header h1{
+    display: block;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+.burgers{
+
+}
+
+.burger-1{
+
+}
+
+section h3{
+    text-align:center;
+    color:red;
+    background-color: orange;
+    margin:5px;
+}
+.burgers h4{
+    color:red;
+    text-align:center;
+    font-size:20px;
+}
+
+.burgers div{
+    /* outline: 4px;
+    outline-style: dotted; */
+    border:1px solid white;
+    margin:2px;
+    background-image: url("img/burger.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+} 
+
+.burgers div:hover{
+    opacity:0.6;
+}
+
+.burgers a{
+    text-decoration: none;
+}
+
+ul{
+    color:orange;
+    display:inline-block;
+    text-align:left;
+}
+
+
+.burgers div li{
+    list-style: none;
+}
+footer{
+    color:red;
+}
+
+@media only screen and (max-width: 600px) {
+    header{
+        max-height:100px;
+        
+    }
+    header img{
+        width: 40px;
+        height:40px;
+    }
+    header h1{
+        font-size:15px;
+    }
+  }
