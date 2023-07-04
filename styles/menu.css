@@ -1,8 +1,19 @@
 html{
     background-color: rgb(0, 0, 0);
 }
+.container-header{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.container-header h1{
+    flex-grow: 1;
+
+}
 
 header{
+    text-align: center;
     background-color: red;
     padding:10px;
     border-radius:4px;
@@ -30,10 +41,6 @@ header h1{
     flex-basis:50%;
 }
 
-.burger-1{
-
-}
-
 section h3{
     text-align:center;
     color:red;
@@ -51,7 +58,7 @@ section h3{
     outline-style: dotted; */
     border:1px solid white;
     margin:2px;
-    background-image: url("img/burger.svg");
+    background-image: url("../img/burger.svg"); 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -89,6 +96,17 @@ footer{
         height:40px;
     }
     header h1{
+        font-size:20px;
+    }
+    section h3{
+        font-size:15px;
+
+    }
+    .burgers h4{
         font-size:15px;
     }
+    .burgers li{
+        font-size:13px;
+    }
   }
+
