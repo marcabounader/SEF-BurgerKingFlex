@@ -18,7 +18,7 @@ var burgers=[
 var count=1;
 burgers.forEach((burger) =>{
     d.innerHTML+=
-    `<a href="#" class="burgers burger-${count}">
+    `<a href="#" class="items item-${count}">
     <div>
         <h4>${burger.name}</h4>
         <ul>
