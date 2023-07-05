@@ -171,5 +171,11 @@ footer{
     .items li{
         font-size:13px;
     }
+    section.products-nav{
+
+        top: 270px;
+
+    
+    }
   }
 
