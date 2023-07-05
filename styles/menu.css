@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 main p{
@@ -41,9 +41,10 @@ header{
 nav a{
     text-decoration: none;
     background-color: orange;
-    color:red;
+    color:rgb(0, 0, 0);
     border-radius: 5px;
     padding:5px;
+    font-weight: bold;
 }
 
 section.products-nav{
@@ -81,12 +82,12 @@ section.products-nav{
 .items{
     flex-basis:49%;
     border-radius: 3px;
-    border:1px solid white;
+    border:3px solid black;
     margin:2px;
     background-image: url("../img/DOUBLE-WHOPPER.png"); 
-    background-size: contain;
     background-repeat: no-repeat;
     background-position: right bottom;
+    background-size: 500px;
     height:300px;
     flex-grow: 1;
 
@@ -95,10 +96,10 @@ section.products-nav{
 .items-1{
     flex-basis:49%;
     border-radius: 3px;
-    border:1px solid white;
+    border:3px solid black;
     margin:2px;
     background-image: url("../img/salad.svg"); 
-    background-size: contain;
+    background-size: 300px;
     background-repeat: no-repeat;
     background-position: right bottom;
     height:300px;
@@ -108,10 +109,10 @@ section.products-nav{
 .items-2{
     flex-basis:49%;
     border-radius: 3px;
-    border:1px solid white;
+    border:3px solid black;
     margin:2px;
     background-image: url("../img/pepsi.svg"); 
-    background-size: contain;
+    background-size: 300px;
     background-repeat: no-repeat;
     background-position: right bottom;
     height:300px;
@@ -170,6 +171,18 @@ footer{
     }
     .items li{
         font-size:13px;
+    }
+    .items{
+        background-size: 300px;
+
+    }
+    .items-1{
+        background-size: 200px;
+
+    }
+    .items-2{
+        background-size: 200px;
+
     }
     section.products-nav{
 
